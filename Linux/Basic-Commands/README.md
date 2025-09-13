@@ -1,4 +1,4 @@
-## Basic Linux Commands
+## Common Linux Commands
 
 Here, I will introduce you to some lightweight, easy commands that you can immediately try to build your confidence in navigating through the Linux terminal. Try this free playground at https://killercoda.com/playgrounds/scenario/ubuntu, where you can try out these commands below with no risk at all to your system.
 
