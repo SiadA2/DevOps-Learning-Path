@@ -1,10 +1,12 @@
 ## Basic Linux Commands
 
-Here, I will introduce you to some lightweight, easy commands that you can immediately try to build your confidence in navigating through the Linux terminal.
+Here, I will introduce you to some lightweight, easy commands that you can immediately try to build your confidence in navigating through the Linux terminal. Try this free playground at https://killercoda.com/playgrounds/scenario/ubuntu, where you can try out these commands below with no risk at all to your system.
 
 ### The Basics:
 
 ```pwd``` shows the path to the current directory we are working on. 
+
+```cat``` allows us to concatenate text and print it to standard input. In layman's terms, it simply prints text into into the terminal for us to see, whether from a file (```cat example.txt```), or from our own input.
 
 ```ls``` lists all files with the current directory we are working on.
 
@@ -15,8 +17,6 @@ Here, I will introduce you to some lightweight, easy commands that you can immed
 ```rm``` removes a file. Again, this follows the same syntax as touch and mkdir.
 
 ```rmdir``` removes an EMPTY directory. To remove a non-empty directory, we use the rm command, followed by -r. Again, this follows the same syntax as the previous three.
-
-### Intermediate:
 
 ```man``` is usually followed up by another command and it shows the syntax/purpose of the command, along with any flags.
 
@@ -32,11 +32,4 @@ Here, I will introduce you to some lightweight, easy commands that you can immed
 
 ```sudo``` excecutes commands as the super/root user.
 
-
-### Advanced:
-
-```grep``` checks for patterns in text and returns them as standard output.
-
-```file``` displays the file type
-
-```chmod``` changes the permissions of a file
+There are more commands that can be used, however, they are more complex, so I will touch upon them in more detail as we go along. I would also highlt recommend ```man``` to see all the possible syntax for each command highlighted above.
