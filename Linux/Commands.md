@@ -40,7 +40,3 @@ Here, I will introduce you to some lightweight, easy commands that you can immed
 ```file``` displays the file type
 
 ```chmod``` changes the permissions of a file
-
-```chown``` changes the owner of a file
-
-```chgrp``` changes the group who own a file.
