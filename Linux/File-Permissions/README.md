@@ -8,3 +8,4 @@ Linux, just like any Operating System, has a way in which we can determine who i
 
 Remember the ```ls``` command I showed you at the beginning? Well, this will come in handy! This command comes with a flag, ```-l```, such that it shows all the permissions configured on each file in your working directory. Here is an example:
 
+<img width="511" height="165" alt="Screenshot 2025-09-13 103023" src="https://github.com/user-attachments/assets/e2e9f346-7393-47ce-ab52-e03168a96f69" />
