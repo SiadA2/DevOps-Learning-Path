@@ -8,4 +8,3 @@ Linux, just like any Operating System, has a way in which we can determine who i
 
 Remember the ```ls``` command I showed you at the beginning? Well, this will come in handy! This command comes with a flag, ```-l```, such that it shows all the permissions configured on each file in your working directory. Here is an example:
 
-![screenshot]("C:\Users\adami\OneDrive\Pictures\Screenshots\Screenshot 2025-09-13 103023.png")
