@@ -10,20 +10,20 @@ This is a page containing some of the first commands you'll use as you go throug
 
 The structure to this folder is as follows:
 
-### [Next Page: 01 - Introduction](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Intro)
+[Next Page: 01 - Introduction](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Intro)
 
-### [Next Page: 02 - The Kernel .vs The Shell .vs The Terminal](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Kernel-vs-Shell-vs-Terminal)
+[Next Page: 02 - The Kernel .vs The Shell .vs The Terminal](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Kernel-vs-Shell-vs-Terminal)
 
-### [Next Page: 03 - Linux Shells](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Linux-Shells)
+[Next Page: 03 - Linux Shells](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Linux-Shells)
 
-### [Next Page: 04 - The Linux File System](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Linux-File-System)
+[Next Page: 04 - The Linux File System](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Linux-File-System)
 
-### [Next Page: 05 - Configuration Files](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Config-files)
+[Next Page: 05 - Configuration Files](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Config-files)
 
-### [Next Page: 06 - Editing Files](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Editing-files)
+[Next Page: 06 - Editing Files](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Editing-files)
 
-### [Next Page: 07 - File Permissions](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/File-Permissions)
+[Next Page: 07 - File Permissions](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/File-Permissions)
 
-### [Next Page: 08 - Environment Variables](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Environment-Variables)
+[Next Page: 08 - Environment Variables](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Environment-Variables)
 
-### [Next Page: 09 - Aliases](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Aliases)
+[Next Page: 09 - Aliases](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Aliases)
