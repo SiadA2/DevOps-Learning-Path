@@ -13,4 +13,4 @@ So, if you're intereted in knowing how to navigate through this Operating System
 
 
 
-([Next Page](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Kernel-vs-Shell-vs-Terminal))
+([Next Page: The Kernel .vs The Shell .vs The Terminal](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Kernel-vs-Shell-vs-Terminal))

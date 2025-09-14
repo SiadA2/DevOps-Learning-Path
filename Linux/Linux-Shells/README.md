@@ -11,3 +11,7 @@ Step 2: pass ```zsh``` to switch to ZSH anytime you want
 Step 3: To set ZSH as your default shell, pass ```chsh -s /bin/zsh```, and close your terminal, then reopen it. Your terminal should open with your ZSH shell up and running.
 
 NOTE: This method works for any other suitable shell on Linux that you would want to use.
+
+Now, let's have a look at the configuration files in Linux
+
+([Next Page: Configuration files](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Config-files))

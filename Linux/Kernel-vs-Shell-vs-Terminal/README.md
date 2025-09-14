@@ -17,3 +17,6 @@ We do this via the terminal, which I've already made brief mention of. This is a
 The shell for Linux is BASH, abbreviated from 'Bourne-Again Shell'. However, other shells can be used, such as ZSH, which are similar, but I'll get into more depth regarding that further on. Bash features several commands that we can input to the terminal, which allow us to create, delete, move, rename and edit files and directories. The type of shell an Operating System has determines how we communicate with the Operating System. Think of it like countries and languages - Different countries have different languages that the people communicate with.
 
 I'll touch upon some of these on the next page.
+
+
+([Next Page: Linux Shells](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Linux-Shells))
