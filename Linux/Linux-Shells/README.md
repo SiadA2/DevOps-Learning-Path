@@ -14,4 +14,4 @@ NOTE: This method works for any other suitable shell on Linux that you would wan
 
 Now, let's have a look at the Linux file system
 
-[Next Page: The Linux File System](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Linux-File=System)
+[Next Page: The Linux File System](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Linux-File-System)

@@ -21,3 +21,7 @@ Yes! You can also create your own environment variables to avoid mundane, repeti
 ```export $VARIABLE="value"``` 
 
 This alone only sets your environment variable for the current session only. If you want this assignment to become permanent, you would have to input it into your configuration file, whether that's ~/.bashrc, or ~/.zshrc. Then once you've done that, input ```source ~/.bashrc``` to apply your changes. Then, once you refresh your terminal, you should have your new environment variable!
+
+We'll round up this introductory repo with a look at aliases
+
+[Next Page: Aliases](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Aliases)

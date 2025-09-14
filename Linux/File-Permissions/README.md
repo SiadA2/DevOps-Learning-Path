@@ -39,3 +39,7 @@ This means that as the permissions for 'another-one.txt' in the image above are 
 If we want to change the permissions to ```-rwxrwxrwx-```, we must do ```chmod 777 another-one.txt```. 7 for the first set of 'rwx', 7 for the second, and 7 for the third. This grants everone on your machine full access to your file.
 
 This is one of the more complex topics in Linux, so understanding this will allow you to make huge strides in your journey in Linux!
+
+Next, is environment variables!
+
+[Next Page: Environment Variables](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Environment-Variables)

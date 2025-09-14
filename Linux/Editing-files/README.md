@@ -27,3 +27,7 @@ Vim is a command that allows us to edit files. The syntax for it is relatively s
 ```/``` shows us where words are in the file. We simply pass the word we are looking for after the slash. We can also use the ↑↓ arrows to navigate through several instances of that word.
 
 Again, there are more shortcuts that can be carried out with vim, but you can play around with the ones above on https://killercoda.com/playgrounds/scenario/ubuntu, as well as trying out different keys on your keyboard to find some yourself. Googling will also definitely help hone your skills with vim navigation.
+
+Up next, is looking at how we can restrict access to our files, a security best-practice.
+
+[Next Page: File Permissions](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/File-Permissions)
