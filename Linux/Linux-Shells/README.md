@@ -7,7 +7,9 @@ As mentioned before, Linux has several shells that you can use to communicate to
 ### Tutorial: Installing ZSH
 
 Step 1: pass ```sudo apt-get install zsh``` into your terminal, and wait for the installation to finish.
+
 Step 2: pass ```zsh``` to switch to ZSH anytime you want
+
 Step 3: To set ZSH as your default shell, pass ```chsh -s /bin/zsh```, and close your terminal, then reopen it. Your terminal should open with your ZSH shell up and running.
 
 NOTE: This method works for any other suitable shell on Linux that you would want to use.
