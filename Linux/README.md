@@ -29,4 +29,4 @@ The structure to this folder is as follows:
 [09 - Aliases](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Aliases)
 
 Then, whenever you've read through the content or you feel ready to test our linux skills, hop over to this online 
-[challenge](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/OTW-BANDIT-CHALLENGE)
+[challenge](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/OTW-BANDIT-CHALLENGE)!
