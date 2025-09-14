@@ -30,4 +30,4 @@ Again, there are more shortcuts that can be carried out with vim, but you can pl
 
 Up next, is looking at how we can restrict access to our files, a security best-practice.
 
-[Next Page: File Permissions](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/File-Permissions)
+[Next Page: 07 - File Permissions](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/File-Permissions)

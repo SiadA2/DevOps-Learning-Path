@@ -43,4 +43,4 @@ This is one of the more complex topics in Linux, so understanding this will allo
 
 Next, is environment variables!
 
-[Next Page: Environment Variables](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Environment-Variables)
+[Next Page: 08 - Environment Variables](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Environment-Variables)

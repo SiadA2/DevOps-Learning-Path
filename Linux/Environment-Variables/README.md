@@ -24,4 +24,4 @@ This alone only sets your environment variable for the current session only. If 
 
 We'll round up this introductory repo with a look at aliases
 
-[Next Page: Aliases](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Aliases)
+[Next Page: 09 - Aliases](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Aliases)

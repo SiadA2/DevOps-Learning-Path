@@ -10,4 +10,4 @@ Everything config-related in Linux is stored in the file ~/.bashrc. If ZSH is ou
 
 Now that we've looked at a real example of a file in Linux, let's look at how we can edit files!
 
-[Next Page: Editing Files](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Editing-files)
+[Next Page: 06 - Editing Files](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Editing-files)

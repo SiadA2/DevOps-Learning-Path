@@ -8,4 +8,4 @@ The linux file system basically refers to the way files are laid out in Linux. I
 
 Now that you've understood the Linux file system, let's put it to use!
 
-[Next Page: Configuration Files](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Config-files)
+[Next Page: 05 - Configuration Files](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Config-files)
