@@ -12,6 +12,6 @@ Step 3: To set ZSH as your default shell, pass ```chsh -s /bin/zsh```, and close
 
 NOTE: This method works for any other suitable shell on Linux that you would want to use.
 
-Now, let's have a look at the configuration files in Linux
+Now, let's have a look at the Linux file system
 
-([Next Page: Configuration files](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Config-files))
+[Next Page: The Linux File System](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Linux-File=System)
