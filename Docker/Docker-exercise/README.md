@@ -20,7 +20,7 @@ Read to the end to see how I've integrated these tools into my project.
 ## Dockerfile
 
 <div>
-    <img src="./Images/Screenshot 2025-10-22 212117.png" alt="Diagram" width="600"/>  <img src="./Images/Screenshot 2025-10-22 173809.png alt="Diagram" width="600"/>
+    <img src="./Images/Screenshot 2025-10-22 212117.png" alt="Diagram" width="600"/>  <img src="./Images/Screenshot 2025-10-22 173809.png" alt="Diagram" width="600"/>
 </div>
 
 - Minimal base image cut the image size by over 50%
