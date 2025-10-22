@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>👋 Welcome to the Flask Visit Counter</h1>
+        <p>This app tracks how many times the counter page has been visited.</p>
+        <a href="/count" class="btn">View Counter</a>
+        <button id="themeToggle" class="toggle">🌙 Toggle Theme</button>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const toggleBtn = document.getElementById('themeToggle');
+    toggleBtn.addEventListener('click', () => {
+        document.body.classList.toggle('dark');
+    });
+});
+    </script>
+</body>
+</html>
