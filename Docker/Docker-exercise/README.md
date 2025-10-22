@@ -38,7 +38,7 @@ Read to the end to see how I've integrated these tools into my project.
 
 ## Local App setup 
 
-Copy the contents of this repo into your local machine. Then run:
+Copy the contents of /app into your local machine. Then run:
 
 ```bash |  
 docker-compose up --build 
