@@ -1,7 +1,7 @@
 # Deploying a Visit Tracker using Flask, Redis and Docker-compose 
 
 <div>
-    <img src="./Images/Screenshot 2025-10-22 172338.png" alt="Diagram" width="600"/>  <img src="./Images/Screenshot 2025-10-22 172400.png" alt="Diagram" width="600"/>
+    <img src="./Images/Screenshot 2025-10-22 172338.png" alt="Diagram" width="450"/>  <img src="./Images/Screenshot 2025-10-22 172400.png" alt="Diagram" width="450"/>
 </div>
 
 This is a flask web app scripted using python and containerised using Docker. 
