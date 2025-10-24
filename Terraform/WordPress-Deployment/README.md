@@ -1,0 +1,1 @@
+# Exercise: Deploy WordPress Using Terraform
