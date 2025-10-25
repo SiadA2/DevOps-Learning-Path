@@ -10,4 +10,23 @@ Bash stands for the "Bourne-again Shell". It is one of several coding languages 
 
 ### The Shebang Line
 
-The first component of our Bash script
+The first component of our Bash script. Arguably the most important. This line tells our local machine how to interpret the the code in the file. It's one line in our script that looks like this:
+
+```bash 
+#!/bin/bash
+```
+
+If your Bash script isn't running as expected, make sure this line is at the top of your script before looking at anything else. That's all for the shebang line. 
+
+### Data types
+
+When programming, there are different ways we can express data:
+
+- Strings - These are a concatenation of characters. They include letters, numbers, and symbols. Each string is concatenated with a set of quotation marks. For example "Hello world 1234".
+
+- Numbers - These are exactly as the name suggests. Any number from 1 to infinity. However they aren't enclosed in a set of quotation marks. Hence, there is a differnce between 1234 and "1234". The first is a number, and the second, a string.
+
+- Booleans - These data types only have two values. True or false. It's not displayed in scripts as much as numbers and strings, but is constantly happening in the background as the local machine evaluates commands.
+
+### Variables
+
