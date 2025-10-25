@@ -29,3 +29,18 @@ If you want to see the journey that I took from start to finish, then I'd recomm
 
 ## [Docker](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Basic-Commands)
 
+- Here, I breakdown the concept of containerisation and it's importance in making applications lightweight, reusable and resource & cost-efficient.
+- I delve into Docker, the most common containerisation tool and explain the basic components, such as Dockerfiles, Docker networks and Docker-compose.
+- At the end of this topic, I deployed a multi-container app using the skills that I learnt. Again, what you deploy is completely up to you, have a read of the [Docker Hub documentation](https://hub.docker.com/) to see what kind of app you would want to run, and try it out!
+
+## [Cloud](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Basic-Commands)
+
+- Here, I introduce you to cloud, and what it is, including some information on the state of the current-day Cloud market. I look into things such as the market size, it's projected growth and the market share of the top cloud providers. It was this information that I evaluated to help inform my decision making on which cloud provider I choose to master.
+- The cloud provider of choice for this topic is AWS. I delve into some of the most common AWS services that you'll come across, such as IAM, S3, EC2 .etc. 
+- At the end, I used what I learnt to create basic architecture in the cloud. Although mine was somewhat basic, I'd highly recommend you build what is known as the "Three-tier Archetecture". If you're not sure, no problem. Feel free to research and Google what you need. 
+
+## [IaC](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Basic-Commands)
+
+- Here, I explain away Infrastructure as Code, what it is, and how we can use it to provision our cloud infrastructure. 
+- I go through Terraform, an example of an IaC tool. I show you core concepts of the tool, as well as a range of commands that we can manipulate to create and decomission infrastructure in line with best-practices.
+- At the end of this topic, I hosted WordPress on the cloud, provisioning my infrastructure using Terraform.
