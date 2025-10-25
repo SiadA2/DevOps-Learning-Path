@@ -33,7 +33,7 @@ If you want to see the journey that I took from start to finish, then I'd recomm
 - I delve into Docker, the most common containerisation tool and explain the basic components, such as Dockerfiles, Docker networks and Docker-compose.
 - At the end of this topic, I deployed a multi-container app using the skills that I learnt. Again, what you deploy is completely up to you, have a read of the [Docker Hub documentation](https://hub.docker.com/) to see what kind of app you would want to run, and try it out!
 
-## [Cloud](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Linux/Basic-Commands)
+## [Cloud](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Cloud)
 
 - Here, I introduce you to cloud, and what it is, including some information on the state of the current-day Cloud market. I look into things such as the market size, it's projected growth and the market share of the top cloud providers. It was this information that I evaluated to help inform my decision making on which cloud provider I choose to master.
 - The cloud provider of choice for this topic is AWS. I delve into some of the most common AWS services that you'll come across, such as IAM, S3, EC2 .etc. 
@@ -50,3 +50,8 @@ If you want to see the journey that I took from start to finish, then I'd recomm
 - Here, I break down what CI/CD is, how it allows us to bypass long deployment times.
 - I also cover YAML, the language that we use to configure CI/CD pipelines, as well as its syntax.
 - At the end, you should hopefully have a better understanding of what CI/CD is and do some extra research to gain a deeper understanding.
+
+## [Kubernetes (K8s)](https://github.com/SiadA2/DevOps-Learning-Path/tree/main/Kubernetes)
+
+- Here, I explain the limitations of regular containerisation and K8s allows us to work around it
+- I also break down core K8s conepts, such as clusters, nodes and pods.
