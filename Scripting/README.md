@@ -1,7 +1,7 @@
-# Scripting With Bash
+<h1 align="center">Scripting With Bash</h1>
 
-<div>
-    <img src="https://th.bing.com/th/id/OIP.exaujd_h60-Lh2MUy363WgHaEK?w=290&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="bash logo" />
+<div align="center">
+    <img src="https://th.bing.com/th/id/OIP.exaujd_h60-Lh2MUy363WgHaEK?w=290&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="bash logo" width="600" />
 </div>
 
 ## What is Bash?
