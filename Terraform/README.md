@@ -38,3 +38,19 @@ So, here's where these concepts come in. When we want to create infrastructure u
 
 ## Terraform Backend
 
+In short, the terraform backend referes to where our current statefile (```*.tfstate```) is stored. The Terraform backend is of two types, and each type have their specific purposes:
+
+- Local backend: As hinted by the name in this type of backend, this is when your backend is stored on your local machine. This is the most cost-efficient & convenient option if you're the only person working on your infrastructure. However, once you start to work on infrastructure as part of large teams, this options becomes far less viable. I'll explain this below.
+
+- Remote backend: In principle, there's nothing stopping multiple people working on the same infrastructure with their own local statefiles. But imagine if Terraform tried to update it's statefile. What statefile does it emulate? What happens if everyone has a different current state? So many questions, hence we just use a remote backend instead.
+
+A remote backend essentially refers to a storage location somewhere on the cloud (Amazon S3, for example) that acts as a single source of truth for our infrastructure state.
+
+## State-Locking
+
+We've just mentioned remote backends and how they allow collaboration across teams. However, we still haven't answered one question. What happens if two people try to make changes to the statefile at the same time? Well, the Terraform statefile actually doesn't react well to that. It can absolutely wreck your statefile, causing things such as race conditions, data corruption and incomplete statfile updates.
+
+The way we prevent this is through Terraform state-locking. This effectively locks the statefile when it's being changed, preventing anyone else from changing the statefile.
+
+On AWS, we most commonly achieve state-locking by locking the remote statefile through DynamoDB. However, recently, a new state-locking mechanism has been released: native S3 locking. S3 now has the capability to lock the statefile without the need for a DynamoDB, saving cloud costs.
+
