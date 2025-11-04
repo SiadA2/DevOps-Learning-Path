@@ -1,4 +1,4 @@
-# Terraform 
+<h1 align="center">Terraform</h1>
 
 ## What is Infrastructure as Code (IaC)? 
 
@@ -44,7 +44,7 @@ In short, the terraform backend referes to where our current statefile (```*.tfs
 
 - Remote backend: In principle, there's nothing stopping multiple people working on the same infrastructure with their own local statefiles. But imagine if Terraform tried to update it's statefile. What statefile does it emulate? What happens if everyone has a different current state? So many questions, hence we just use a remote backend instead.
 
-A remote backend essentially refers to a storage location somewhere on the cloud (Amazon S3, for example) that acts as a single source of truth for our infrastructure state.
+    A remote backend essentially refers to a storage location somewhere on the cloud (Amazon S3, for example) that acts as a single source of truth for our infrastructure state.
 
 ## State-Locking
 
@@ -54,3 +54,6 @@ The way we prevent this is through Terraform state-locking. This effectively loc
 
 On AWS, we most commonly achieve state-locking by locking the remote statefile through DynamoDB. However, recently, a new state-locking mechanism has been released: native S3 locking. S3 now has the capability to lock the statefile without the need for a DynamoDB, saving cloud costs.
 
+## Variables
+
+In coding/software engineering, let me introduce you to a concept known as 'DRY' - Don't Repeat Yourself. To ensure readability, rather than use the same values over and over again, we can assign these repeated values to what are known as variables, which we can then resue across the project.
