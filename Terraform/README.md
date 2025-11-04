@@ -56,4 +56,11 @@ On AWS, we most commonly achieve state-locking by locking the remote statefile t
 
 ## Variables
 
-In coding/software engineering, let me introduce you to a concept known as 'DRY' - Don't Repeat Yourself. To ensure readability, rather than use the same values over and over again, we can assign these repeated values to what are known as variables, which we can then resue across the project.
+In coding/software engineering, let me introduce you to a concept known as 'DRY' - Don't Repeat Yourself. To ensure readability, rather than use the same values over and over again, we can assign these repeated values to what are known as variables, which we can then resue across the project. In Terraform, variables are of two types: 
+
+- Input: These are variables that require values to be configured by the person creating the infrastructure. 
+- Output: These are variables that have their values printed out as you create your infrastructure. These variables can also be used across your project, but are very helpful when you need values from resources that haven't been created yet.
+
+Input variables are stored in a ```variables.tf``` file, and output variables are stored in a file named ```outputs.tf``` as part of Terraform best-practices. This really leverages Terraform's readability and allows us to better present our projects.
+
+There's also a file where we store sensitive variables. This file ends in ```.tfvars``` and allows us to use sensitive environment variables (such as credentials) needed for us to perform certain actions within terraform, whilst .gitignore allows us to keep this file on our local machine, preventing it from getting pushed to our remote repositories. 
