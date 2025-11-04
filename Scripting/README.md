@@ -69,4 +69,6 @@ An example of this being implemented in a script would be:
  Age: 30
  ```
 
- 
+### Arithmetic
+
+Like all scripting languages, you can carry out arithmetic equations with Bash, However, Bash has a relatively unconventional way of expressing these. 
