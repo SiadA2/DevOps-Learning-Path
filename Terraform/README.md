@@ -63,4 +63,46 @@ In coding/software engineering, let me introduce you to a concept known as 'DRY'
 
 Input variables are stored in a ```variables.tf``` file, and output variables are stored in a file named ```outputs.tf``` as part of Terraform best-practices. This really leverages Terraform's readability and allows us to better present our projects.
 
-There's also a file where we store sensitive variables. This file ends in ```.tfvars``` and allows us to use sensitive environment variables (such as credentials) needed for us to perform certain actions within terraform, whilst .gitignore allows us to keep this file on our local machine, preventing it from getting pushed to our remote repositories. 
+There's also a file where we store sensitive variables. This file ends in ```.tfvars``` and allows us to use sensitive environment variables (such as credentials) needed for us to perform certain actions within terraform, whilst .gitignore allows us to keep this file on our local machine, preventing it from getting pushed publicly to our remote repositories. 
+
+## Modules
+
+Modules are essentially a blueprint of how a specific piece of infrastructure is created. It takes all of the infrastructure created by Terraform and organises it based on it's commonality. Here's an example of a Terraform project that's been modularised:
+
+From: 
+
+``` bash 
+.
+└── Terraform/
+    ├── main.tf
+    ├── outputs.tf
+    └── variables.tf
+```
+
+To: 
+
+``` bash
+.
+└── Terraform/
+    ├── ec2/
+    │   ├── main.tf
+    │   ├── outputs.tf
+    │   └── variables.tf
+    ├── elb/
+    │   ├── main.tf
+    │   ├── outputs.tf
+    │   └── variables.tf
+    ├── s3/
+    │   ├── main.tf
+    │   ├── outputs.tf
+    │   └── variables.tf
+    ├── vpc/
+    │   ├── main.tf
+    │   ├── outputs.tf
+    │   └── variables.tf
+    ├── main.tf
+    ├── outputs.tf
+    └── variables.tf  
+```
+
+## Creating Infrastructure with Terraform
