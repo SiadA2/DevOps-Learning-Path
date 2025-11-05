@@ -109,4 +109,4 @@ To:
 
 Now that's all of the theory out of the way, let's now go through how the process of actually creating infrastructure works on Terraform. Starting off, I'll introduce you to three commands:
 
-- ```bash terraform init```: This initialises our Terraform backend, as well as our modules, allowing us to actually start working with Terraform. Ensure that you run this command before any of the others
+- ```terraform init```: This initialises our Terraform backend, as well as our modules, allowing us to actually start working with Terraform. Ensure that you run this command before any of the others
