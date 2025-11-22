@@ -36,8 +36,6 @@ ENTRYPOINT ["python", "count.py"]
 
 # COPY --from=build /usr/local/lib/python3.8/site-packages/flask .
 
-# COPY --from=build /usr/local/lib/python3.8/site-packages/redis .
-
 # COPY --from=build /app .
  
 # EXPOSE 2000
